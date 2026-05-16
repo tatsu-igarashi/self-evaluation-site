@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025年度 学校自己評価結果の公表 - 鹿島学園高等学校</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+        }
+        .stacked-bar-container {
+            height: 16px;
+            width: 100%;
+            display: flex;
+            border-radius: 9999px;
+            overflow: hidden;
+            background-color: #f1f5f9;
+        }
+        .category-content {
+            display: none;
+        }
+        .category-content.active {
+            display: block;
+        }
+        .rotate-180 {
+            transform: rotate(180deg);
+        }
+        .arrow-icon {
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 pb-20">
+
+    <!-- Header -->
+    <header class="bg-[#1e3a8a] text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-white p-1 rounded">
+                    <i data-lucide="file-text" class="text-[#1e3a8a] w-6 h-6"></i>
+                </div>
+                <div>
+                    <h1 class="text-lg font-bold leading-none">鹿島学園高等学校</h1>
+                    <p class="text-xs opacity-80 uppercase tracking-wider">通信制課程 学校自己評価</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-8">
+        <!-- Title Section -->
+        <section class="mb-12">
+            <div class="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-bold mb-4">
+                2025年度 報告
+            </div>
+            <h2 class="text-3xl md:text-4xl font-extrabold mb-4 text-slate-800 leading-tight">
+                学校自己評価結果の公表について
+            </h2>
+            <p class="text-slate-600 leading-relaxed">
+                本校では、教育活動の質向上と開かれた学校づくりを目的として、自己評価を実施しております。
+                本評価に基づき、更なる教育環境の整備と生徒一人ひとりに寄り添った指導体制の強化に努めてまいります。
+            </p>
+        </section>
+
+        <!-- Overview Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                <h3 class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-wider">対象期間</h3>
+                <p class="text-lg font-bold text-slate-800">2025年4月1日 〜 2026年3月31日</p>
+                <div class="mt-4 flex items-center text-xs text-slate-400 font-medium">
+                    <i data-lucide="check-circle-2" class="w-4 h-4 mr-1 text-green-500"></i>
+                    <span>年度集計 完了報告</span>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                <h3 class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-wider">評価の基準</h3>
+                <div class="flex flex-wrap gap-2 mt-1">
+                    <span class="px-3 py-1 bg-green-100 text-green-700 text-[11px] font-bold rounded-lg border border-green-200">A: 良好である</span>
+                    <span class="px-3 py-1 bg-yellow-100 text-yellow-700 text-[11px] font-bold rounded-lg border border-yellow-200">B: 特筆すべき改善点はない</span>
+                    <span class="px-3 py-1 bg-red-100 text-red-700 text-[11px] font-bold rounded-lg border border-red-200">C: 改善すべき点がある</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Evaluation List Container -->
+        <div id="evaluation-container" class="space-y-6">
+            <!-- JavaScriptでここに項目が生成されます -->
+        </div>
+
+        <!-- Future Commitment -->
+        <section class="mt-16 bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-slate-200">
+            <h3 class="text-2xl font-bold mb-6 text-slate-800">今後の重点課題と改善について</h3>
+            <p class="text-slate-600 leading-relaxed mb-8">
+                今年度の自己評価結果を真摯に受け止め、本校では以下の3点を重点課題として改善に取り組んでまいります。
+                行政および関係諸機関、保護者の皆様におかれましては、引き続き本校の教育活動へのご理解とご協力をお願い申し上げます。
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-5 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-4 font-bold text-lg">1</div>
+                    <h4 class="font-bold mb-2 text-slate-800">ICT教育の深度化</h4>
+                    <p class="text-xs text-slate-500 leading-relaxed">タブレット端末や学習支援ソフトの活用をさらに進め、個別の習熟度に合わせた指導を強化します。</p>
+                </div>
+                <div class="p-5 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-4 font-bold text-lg">2</div>
+                    <h4 class="font-bold mb-2 text-slate-800">相談体制の拡充</h4>
+                    <p class="text-xs text-slate-500 leading-relaxed">メンタルヘルスや友人関係の悩みに対し、専門スタッフとの連携を含めた多角的な支援体制を構築します。</p>
+                </div>
+                <div class="p-5 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-4 font-bold text-lg">3</div>
+                    <h4 class="font-bold mb-2 text-slate-800">地域連携の推進</h4>
+                    <p class="text-xs text-slate-500 leading-relaxed">通信制課程の特性を活かし、地域社会での体験活動やキャリア教育の機会をより多く提供します。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-20 border-t border-slate-200 bg-white py-12">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <p class="text-slate-400 text-sm">© 2025 Kashima Gakuen High School. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const evaluationData = [
+            { id: 1, category: "教育体制", q: "学校評価を実施して、状況を踏まえた教育目標を設定している。", rank: "A", a: 0.67, b: 0.33, c: 0 },
+            { id: 2, category: "教育体制", q: "通信教育実施計画に基づき、適正な時期に各指導・試験を実施している。", rank: "A", a: 0.81, b: 0.19, c: 0 },
+            { id: 3, category: "教育体制", q: "学習指導要領を遵守した内容になっている。", rank: "A", a: 0.88, b: 0.12, c: 0 },
+            { id: 4, category: "教育体制", q: "教科書、学習書を適切に使用し、効果的な指導を行っている。", rank: "A", a: 0.74, b: 0.26, c: 0 },
+            { id: 5, category: "学習指導", q: "学習活動において、ICTを有効に活用している。", rank: "A", a: 0.74, b: 0.26, c: 0 },
+            { id: 6, category: "学習指導", q: "面接指導における1時間の学習内容やレベルが適切である。", rank: "A", a: 0.69, b: 0.31, c: 0 },
+            { id: 7, category: "学習指導", q: "主体的・対話的で深い学び（アクティブ・ラーニング）を取り入れている。", rank: "A", a: 0.55, b: 0.43, c: 0.02 },
+            { id: 8, category: "生徒支援", q: "進路希望の実現に向けて、十分な進路指導や情報提供ができている。", rank: "A", a: 0.62, b: 0.36, c: 0.02 },
+            { id: 9, category: "生徒支援", q: "学校生活（友人関係、メンタル面等）の相談体制が整備されている。", rank: "A", a: 0.69, b: 0.31, c: 0 },
+            { id: 10, category: "環境整備", q: "学習の補助となる資料や図書等が十分に揃っている。", rank: "A", a: 0.50, b: 0.43, c: 0.07 },
+            { id: 11, category: "管理・運営", q: "適切な看板表記や募集・相談に際しての明確な説明をしている。", rank: "A", a: 0.81, b: 0.19, c: 0 },
+            { id: 12, category: "教育体制", q: "単位修得や卒業要件等、通信制の仕組みを生徒が理解できている。", rank: "A", a: 0.50, b: 0.50, c: 0 },
+            { id: 13, category: "学習指導", q: "生徒の進捗状況を把握し、丁寧な指導ができている。", rank: "A", a: 0.55, b: 0.45, c: 0 },
+            { id: 14, category: "学習指導", q: "生徒個々の能力に応じ、計画的な添削指導ができている。", rank: "A", a: 0.50, b: 0.50, c: 0 },
+            { id: 15, category: "学習指導", q: "面接指導の出席を促すための指導が十分に行われている。", rank: "A", a: 0.64, b: 0.36, c: 0 },
+            { id: 16, category: "生徒支援", q: "不登校傾向の生徒等に対し、積極的な声掛けや支援を行っている。", rank: "A", a: 0.69, b: 0.31, c: 0 },
+            { id: 17, category: "環境整備", q: "校舎の清掃が行き届き、学習環境が整えられている。", rank: "A", a: 0.76, b: 0.21, c: 0.03 },
+            { id: 18, category: "環境整備", q: "生徒・教職員の安全を確保するための防災管理がなされている。", rank: "A", a: 0.57, b: 0.43, c: 0 },
+            { id: 19, category: "管理・運営", q: "教職員間の連携が密に図られ、適切な運営ができている。", rank: "A", a: 0.60, b: 0.40, c: 0 },
+            { id: 20, category: "管理・運営", q: "ハラスメントの防止や人権尊重の意識が浸透している。", rank: "A", a: 0.83, b: 0.17, c: 0 },
+            { id: 21, category: "管理・運営", q: "個人情報の管理が適切になされている。", rank: "A", a: 0.81, b: 0.19, c: 0 },
+            { id: 22, category: "管理・運営", q: "会計処理は法令に従い適正に執行されている。", rank: "A", a: 0.83, b: 0.17, c: 0 },
+            { id: 23, category: "管理・運営", q: "教職員の研修機会が確保され、資質向上に努めている。", rank: "A", a: 0.55, b: 0.43, c: 0.02 },
+            { id: 24, category: "外部連携", q: "保護者や地域との連携、情報提供が適切に行われている。", rank: "A", a: 0.52, b: 0.48, c: 0 },
+            { id: 25, category: "管理・運営", q: "学校法人のコンプライアンス方針を理解し遵守している。", rank: "A", a: 0.86, b: 0.14, c: 0 },
+            { id: 26, category: "教育体制", q: "通信制課程としての役割を自覚し、特色ある教育を展開している。", rank: "A", a: 0.79, b: 0.21, c: 0 },
+            { id: 27, category: "教育体制", q: "生徒の自己実現を支援し、健全な育成に貢献している。", rank: "A", a: 0.74, b: 0.26, c: 0 },
+            { id: 28, category: "管理・運営", q: "適切な財務状況の維持、向上に努めている。", rank: "A", a: 0.71, b: 0.29, c: 0 }
+        ];
+
+        const categories = ["教育体制", "学習指導", "生徒支援", "環境整備", "管理・運営", "外部連携"];
+
+        function init() {
+            const container = document.getElementById('evaluation-container');
+            
+            categories.forEach(cat => {
+                const catItems = evaluationData.filter(i => i.category === cat);
+                const section = document.createElement('div');
+                section.className = 'bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden';
+                
+                // 初期状態を閉じている状態にするため、'active' クラスを除去
+                // 矢印も回転させておく
+                section.innerHTML = `
+                    <button class="w-full px-6 py-5 flex items-center justify-between bg-white hover:bg-slate-50 transition-colors category-btn" data-category="${cat}">
+                        <div class="flex items-center">
+                            <span class="w-1.5 h-6 bg-blue-600 rounded-full mr-4"></span>
+                            <h3 class="font-bold text-lg text-slate-800">${cat}</h3>
+                            <span class="ml-3 text-xs text-slate-400 font-normal">(${catItems.length}項目)</span>
+                        </div>
+                        <i data-lucide="chevron-down" class="text-slate-400 transition-transform arrow-icon rotate-180"></i>
+                    </button>
+                    <div class="category-content border-t border-slate-100 bg-slate-50/30" id="content-${cat}">
+                        ${catItems.map((item, idx) => `
+                            <div class="p-6 ${idx !== catItems.length - 1 ? 'border-b border-slate-100' : ''}">
+                                <div class="flex flex-col md:flex-row md:items-start justify-between gap-6">
+                                    <div class="flex-1">
+                                        <div class="flex items-center mb-2">
+                                            <span class="text-[10px] font-bold text-blue-500 bg-blue-50 px-2 py-0.5 rounded mr-2 uppercase tracking-wide">Item ${item.id}</span>
+                                            ${item.c > 0.05 ? `
+                                                <span class="flex items-center text-[10px] text-amber-600 font-bold">
+                                                    <i data-lucide="alert-circle" class="w-3 h-3 mr-1"></i> 重点改善項目
+                                                </span>
+                                            ` : ''}
+                                        </div>
+                                        <p class="text-slate-800 font-medium leading-relaxed">${item.q}</p>
+                                    </div>
+                                    
+                                    <div class="w-full md:w-56 shrink-0 bg-white p-3 rounded-xl border border-slate-100 shadow-sm">
+                                        <div class="flex justify-between items-center mb-3">
+                                            <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">総合評価</span>
+                                            <div class="flex items-center">
+                                                <span class="text-xs text-slate-400 mr-2 font-medium">Most:</span>
+                                                <span class="text-2xl font-black text-blue-600 leading-none">${item.rank}</span>
+                                            </div>
+                                        </div>
+                                        <div class="stacked-bar-container">
+                                            <div class="h-full bg-blue-500" style="width: ${item.a * 100}%"></div>
+                                            <div class="h-full bg-blue-200" style="width: ${item.b * 100}%"></div>
+                                            <div class="h-full bg-red-400" style="width: ${item.c * 100}%"></div>
+                                        </div>
+                                        <div class="flex justify-between mt-2 text-[9px] font-bold text-slate-400">
+                                            <div class="flex items-center"><div class="w-1.5 h-1.5 rounded-full bg-blue-500 mr-1"></div>A: ${Math.round(item.a * 100)}%</div>
+                                            <div class="flex items-center"><div class="w-1.5 h-1.5 rounded-full bg-blue-200 mr-1"></div>B: ${Math.round(item.b * 100)}%</div>
+                                            ${item.c > 0 ? `<div class="flex items-center"><div class="w-1.5 h-1.5 rounded-full bg-red-400 mr-1"></div>C: ${Math.round(item.c * 100)}%</div>` : ''}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                
+                container.appendChild(section);
+            });
+
+            lucide.createIcons();
+
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const content = btn.nextElementSibling;
+                    const arrow = btn.querySelector('.arrow-icon');
+                    
+                    content.classList.toggle('active');
+                    // 矢印の向き制御: activeがある時は上向き(0度)、ない時は下向き(180度)
+                    if (content.classList.contains('active')) {
+                        arrow.classList.remove('rotate-180');
+                    } else {
+                        arrow.classList.add('rotate-180');
+                    }
+                });
+            });
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>
